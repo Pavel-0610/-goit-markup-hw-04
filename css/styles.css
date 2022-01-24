@@ -649,7 +649,6 @@ body {
   text-align: center;
   margin-bottom: 50px;
   letter-spacing: 0.03em;
-  /* width: 390px; */
   margin: 0 auto;
 }
 
@@ -667,6 +666,7 @@ body {
   justify-content: center;
   color: #afb1b8;
   width: 170px;
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -675,8 +675,7 @@ body {
   fill: currentColor;
 }
 
-.section-clients-link:hover,
-.section-clients-link:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+.section-clients-ikon:hover,
+.section-clients-ikon:focus {
+  color: var(--accent-color);
 }
