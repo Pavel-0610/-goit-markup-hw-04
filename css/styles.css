@@ -679,3 +679,7 @@ body {
 .section-clients-ikon:focus {
   color: var(--accent-color);
 }
+
+.section-clients-item:not(:last-child) {
+  margin-right: var(--base-margin);
+}
